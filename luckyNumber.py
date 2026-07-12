@@ -45,5 +45,6 @@ def get_lucky_number(name):
         return lucky_num
     
 
-lucky_num=get_lucky_number("Chloe Perez")
+name=input("Enter your first and last name: ")
+lucky_num=get_lucky_number(name)
 print(lucky_num)
