@@ -29,5 +29,7 @@ def get_mood(genre, bpm):
         return "hype"
     elif genre=="electronic" and (bpm>=135 and bpm<=180):
         return "hype"
-mood=get_mood("classical", 180)
+genre=input("Enter the genre: ")
+bpm=int(input("Enter the BPM: "))
+mood=get_mood(genre, bpm)
 print(mood)
