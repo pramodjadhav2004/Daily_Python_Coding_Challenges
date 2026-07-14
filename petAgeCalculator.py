@@ -25,5 +25,7 @@ def pet_years(pet, age):
     }
     return age*age_dict[pet]
     
-petYears=pet_years("hamster", 4)
+pet=input("Enter a pet type: ")
+age=int(input("Enter the pet's age in human years: "))
+petYears=pet_years(pet, age)
 print(petYears)
