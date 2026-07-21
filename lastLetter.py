@@ -15,6 +15,6 @@ def get_last_letter(s):
                 maxIndex=alphabets.index(i.lower())
                 lastLetter=i
     return lastLetter
-acronym=input("Enter an acronym: ")  
-full_name=find_org(acronym)
+s=input("Enter a string: ")
+last_letter=get_last_letter(s)
 print(last_letter)
