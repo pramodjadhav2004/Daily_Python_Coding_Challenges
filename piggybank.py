@@ -26,5 +26,7 @@ def piggy_bank(coins):
         return "$0.00"
     return "$"+str(round(total,2))
     
-total=piggy_bank({})
+coins={"nickels": 8, "dimes": 6, "quarters": 5}
+
+total=piggy_bank(coins)
 print(total)
