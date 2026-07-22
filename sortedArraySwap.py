@@ -20,5 +20,7 @@ def sort_and_swap(arr):
             swap_arr.append(arr[i])
     swap_arr.append(arr[-1])
     return swap_arr
-swap_array=sort_and_swap([9, 7, 5, 3, 1, 2, 4, 6, 8])
+arr=input("Enter an array of integers separated by space: ").split()
+arr=[int(num) for num in arr]
+swap_array=sort_and_swap(arr)
 print(swap_array)
