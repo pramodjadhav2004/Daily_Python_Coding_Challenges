@@ -3,4 +3,5 @@
 def mirror(s):
     s+=s[::-1]
     return s
-print(mirror("freeCodeCamp"))
+s=input("Enter a string: ")
+print(mirror(s))
