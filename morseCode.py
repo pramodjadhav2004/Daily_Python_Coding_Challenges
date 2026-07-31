@@ -57,4 +57,5 @@ def decode_morse(code):
             morse_str+=morse_code[j]
         morse_str+=" "
     return morse_str[:-1]
-print(decode_morse("- .... .   --.- ..- .. -.-. -.-   -... .-. --- .-- -.   ..-. --- -..-   .--- ..- -- .--. . -..   --- ...- . .-.   - .... .   .-.. .- --.. -.--   -.. --- --."))
+code=input("Enter the Morse code: ")
+print(decode_morse(code))
