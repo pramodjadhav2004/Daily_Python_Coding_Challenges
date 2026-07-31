@@ -13,4 +13,5 @@ def separate_letters_and_numbers(s):
             flag=1
     return newS+s[-1]
 
-print(separate_letters_and_numbers("a1b2c3d4"))
+s=input("Enter a string containing only letters and numbers: ")
+print(separate_letters_and_numbers(s))
