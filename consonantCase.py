@@ -23,4 +23,4 @@ def to_consonant_case(s):
                 vowelcase+=i
     return vowelcase
 s=input("Enter a string: ")
-print(to_consonant_case("_hElLO-WOrlD-"))
+print(to_consonant_case(s))
