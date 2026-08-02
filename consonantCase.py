@@ -22,4 +22,5 @@ def to_consonant_case(s):
             else:
                 vowelcase+=i
     return vowelcase
+s=input("Enter a string: ")
 print(to_consonant_case("_hElLO-WOrlD-"))
